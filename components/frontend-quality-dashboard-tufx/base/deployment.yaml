@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: frontend-quality-dashboard-tufx
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-rcuj-tenant/mc-quality-dashboard/frontend-quality-dashboard-tufx@sha256:8d5dee8fb57bf0517c86b1b63eae60abb3333701f884ab5a762700ddd8d78f9b
         imagePullPolicy: Always
         name: container-image
         ports:
