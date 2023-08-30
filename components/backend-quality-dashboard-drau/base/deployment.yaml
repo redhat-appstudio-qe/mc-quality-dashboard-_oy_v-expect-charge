@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-drau
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-rcuj-tenant/mc-quality-dashboard/backend-quality-dashboard-drau@sha256:74424e1c89e9ee97ec3434c51a83db5f6c2fc013cdb7d45727d000331c490645
         imagePullPolicy: Always
         name: container-image
         ports:
